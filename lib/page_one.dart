@@ -61,11 +61,26 @@ class _PageOneState extends State<PageOne> {
         mainAxisAlignment: MainAxisAlignment.spaceAround,
         children: [
           Container(
-            height: 30,
-            width: 300,
+            alignment: Alignment.center,
+            height: 60,
+            width: 380,
             color: Colors.grey[200],
-            child: const Center(child: Text('Fetch data from the internet')),
+            child: const Column(
+              mainAxisAlignment: MainAxisAlignment.center,
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Text('Fetch data from the internet'),
+                SizedBox(
+                  height: 10,
+                ),
+                Text('returns single data point from {JSON}Placeholder'),
+              ],
+            ),
           ),
+          const SizedBox(
+            height: 30,
+          ),
+          const Text('turn the json data into a list...'),
           Container(
             height: 500,
             width: 300,

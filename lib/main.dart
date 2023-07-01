@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'package:json_data/page_one.dart';
+import 'package:json_data/page_two.dart';
 
 void main() {
   runApp(const MainApp());
@@ -27,7 +28,7 @@ class MainApp extends StatelessWidget {
           body: const TabBarView(
             children: [
               PageOne(),
-              Text('page2'),
+              PageTwo(),
               Text('page3'),
               Text('page4'),
             ],
