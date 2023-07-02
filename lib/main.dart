@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 
 import 'package:json_data/page_one.dart';
+import 'package:json_data/page_three.dart';
+
 import 'package:json_data/page_two.dart';
 
 void main() {
@@ -29,7 +31,7 @@ class MainApp extends StatelessWidget {
             children: [
               PageOne(),
               PageTwo(),
-              Text('page3'),
+              PageThree(),
               Text('page4'),
             ],
           ),
