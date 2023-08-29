@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:json_data/page_four.dart';
+import 'package:json_data/page_four_v1.dart';
+import 'package:json_data/page_four_v2.dart';
 
 import 'package:json_data/page_one.dart';
 import 'package:json_data/page_three.dart';
@@ -32,7 +35,7 @@ class MainApp extends StatelessWidget {
               PageOne(),
               PageTwo(),
               PageThree(),
-              Text('page4'),
+              PageFour(),
             ],
           ),
         ),

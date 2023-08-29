@@ -1,4 +1,3 @@
-// ignore_for_file: public_member_api_docs, sort_constructors_first
 import 'dart:convert';
 
 import 'package:flutter/material.dart';
@@ -74,7 +73,7 @@ class AlbumsList extends StatelessWidget {
         itemCount: albums.length,
         itemBuilder: (context, index) {
           return ListTile(
-            // leading: Text(albums[index].id),
+            leading: Text(albums[index].id.toString()),
             title: Text(albums[index].title),
           );
         });

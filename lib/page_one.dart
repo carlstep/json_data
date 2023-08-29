@@ -80,7 +80,8 @@ class _PageOneState extends State<PageOne> {
           const SizedBox(
             height: 30,
           ),
-          const Text('turn the json data into a list...'),
+          const Text('''turn the json data into a list...
+          see page 3'''),
           Container(
             height: 500,
             width: 300,
